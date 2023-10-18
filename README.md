@@ -6,7 +6,7 @@ You'll also need Node and Python installed.
 
 ## What is CDK?
 
-![image](\cdkworkshoppy\assets\AppStacks.png)
+![image](/assets/AppStacks.png)
 
 The AWS CDK lets you build reliable, scalable, cost-effective applications in the cloud with the considerable expressive power of a programming language. This approach yields many benefits, including:
 
@@ -78,5 +78,5 @@ In this repository, we are going to demonstrate the use of CDK to build a simple
 
 The code we use here describes the creation of a Construct `HitCounter` which can be attached to any Lambda function that is used as an API Gateway Backend. It is used to count how many requests we issue to each URL path and then store this in a DynamoDB table.  
 
-![image](\cdkworkshoppy\assets\hit-counter.png)
+![image](/assets/hit-counter.png)
 
